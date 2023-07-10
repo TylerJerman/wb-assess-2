@@ -1,0 +1,135 @@
+/*
+
+these are the colors used in the example
+***you can use them if you'd like or you can choose your own***
+
+black - rgb(37, 37, 37)
+blue - rgb(42, 171, 226)
+shadow - rgba(102, 75, 75, .3)
+white - rgb(255, 255, 255) (default value)
+
+the font is called 'nunito' and can be found on google fonts
+***you can use it if you'd like or you can choose your own***
+
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.top {
+  position: sticky;
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 0px;
+  margin-right: 15px;
+}
+
+#blueLeft {
+  float: left;
+  color: rgb(42, 171, 226);
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+#whiteRight {
+  float: right;
+  color: white;
+  font-size: 15px;
+  word-spacing: 35px;
+  padding-right: 15px;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+#middleTopLeft {
+  float: left;
+  padding-left: 15%;
+  margin-right: 20%;
+  
+}
+
+.imgGallery {
+
+}
+
+#viewImages {
+  color:rgb(42, 171, 226);
+  padding-left: 70%;
+}
+
+#middleBottomLeft {
+  float: left;
+}
+
+.middleRight {
+  float: right;
+  display: block; 
+  box-shadow: 3, 3, 3;
+  padding-right: 15%;
+}
+
+#myName {
+  float: middle;
+  width: 100%;
+  height: 150px;
+  margin: 10px;
+  padding-top: 20px;
+  padding-left: 30px;
+  border: 1px solid black;
+  box-shadow: 3, 3, 3;
+}
+
+#popArt {
+  border: 1px solid black;
+width: 150%;
+height: 26%
+word-spacing: 5px;
+padding: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color:rgb(42, 171, 226);
+  padding-bottom: 0;
+}
+
+#blackLeft {
+  margin: 10px;
+  padding-top: 1px;
+  padding-left: 10px;
+}
+
+.q {
+  float: right;
+  
+  position: sticky;
+  background-color: rgb(42, 171, 226);
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+#questionButton {
+  position: sticky;
+  float: middle;
+  width: 25px;
+  height: 25px;
+  padding-left: 17px;
+  margin-top: -7px;
+  border-radius: 50%;
+  position: sticky;
+}
